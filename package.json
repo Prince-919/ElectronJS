@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prince-919/ElectronJS.git"
+  },
+  "author": "prince sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prince-919/ElectronJS/issues"
+  },
+  "homepage": "https://github.com/Prince-919/ElectronJS#readme",
+  "dependencies": {
+    "electron": "^21.2.3"
+  }
+}
