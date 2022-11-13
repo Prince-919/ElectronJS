@@ -1,12 +1,18 @@
 const {app, BrowserWindow} = require('electron'); 
 
-console.log('Main Process');
+ 
 
 function createWindow()
 {
     const win = new BrowserWindow({
         width:800,
         height:600,
+        // frame: false,
+        resizable : false,
+        alwaysOnTop:true,
+        title :"awesome app",
+        backgroundColor:"#EFF5F5",
+
     })
     win.loadFile('index.html'); // run file 
 
