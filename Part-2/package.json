@@ -1,0 +1,11 @@
+{
+  "name": "myapp2",
+  "version": "1.0.0",
+  "description": "study purpose ",
+  "main": "main.js",
+  "scripts": {
+    "start" : "electron ."
+  },
+  "author": "Prince Sharma",
+  "license": "ISC"
+}
