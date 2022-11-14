@@ -7,13 +7,18 @@
     <title>Electron App</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
+
+<!--=========== Control Dragable (-webkit-app-region:drag;)  -->
+
+<body style="user-select: none; -webkit-app-region:drag;">
     <h1>Hello World!</h1>
     <p>Hello I am full Stack Developer , I Am Desktop Developer And Problem Solving</p>
     <p>Hello Nodemon Auto Reload</p>
-     
     
     <a href="Child.html" target="_blank"> Go To Child Window</a>
+    <br>
+    <br>
+    <input type="range" style="-webkit-app-region:no-drag; cursor: pointer;">
 
     <script>
         console.log('Render Process');

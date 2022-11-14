@@ -7,7 +7,7 @@ function createWindow()
     const win = new BrowserWindow({
         width:900,
         height:600,
-        // frame: false,
+        frame: false,
         // resizable : false,
         // alwaysOnTop:true,
         title :"awesome app",
@@ -31,7 +31,7 @@ function createWindow()
     // win.webContents.openDevTools();   // open automatic Web dev tool
 }
 
-// app.whenReady().then(createWindow);
+app.whenReady().then(createWindow);
 
 // ================= Start 3 ==================
 // console.log(app.isReady()); // False (check output app not ready)
@@ -58,18 +58,22 @@ function createWindow()
 //     console.log('you are on app');
 // });
 
-app.on('browser-window-blur', ()=>{
-    console.log('you are unfocus app');
-})
+// app.on('browser-window-blur', ()=>{
+//     console.log('you are unfocus app');
+// })
 
 // Ready App 
-app.on('ready', ()=>{ 
-    console.log(app.isReady());     // True (check output app ready)
+// app.on('ready', ()=>{ 
+//     console.log(app.isReady());     // True (check output app ready)
 
-    createWindow();
-});
-
-
+//     createWindow();
+// });
 
 
 // =================== Start 3 end =================
+
+// =================== Start 4 ===================
+
+
+
+// =================== Start 4 End  ===================
